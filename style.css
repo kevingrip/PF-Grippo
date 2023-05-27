@@ -14,17 +14,9 @@ body {
 }
 
 
-.bgc_1{
+.bgc{
     background-color: rgba(0, 0, 0, 0.656);
     display: flex;
-
-}
-
-.bgc_2{
-    background-color: rgba(0, 0, 0, 0.473);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
