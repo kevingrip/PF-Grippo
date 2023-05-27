@@ -1,0 +1,433 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Imagenes/botellas-de-vino-tinto-y-vaso-botella-sobre-fondo-negro-con-reflexión-perfecto-para-publicidad-promoción-216291665.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+}
+
+.cont_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:    "encabezado"
+                            "cont_prin"
+                            "pie_de_pag";
+}
+
+
+
+
+
+main{
+    background-color: rgba(0, 0, 0, 0.656);
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Montez', cursive;
+    font-size: 4rem;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.texto_index {
+    color: black;
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin: 25px;
+    color:white;
+}
+
+.historia{
+    display: flex;
+    flex-direction: column;
+}
+
+.tamaño_img_historia img{
+    width: 95%;
+    border-radius: 2rem;
+}
+
+.tamaño_img_historia{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo_historia{
+    font-family: 'Poppins', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-size: 15px;
+    height: auto;
+    color: white;
+
+    
+}
+
+.icono {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+
+.bloque_turismo {
+    font-family: 'Poppins', cursive;
+    text-align: center;
+    padding: 2vh;
+    font-weight: 500;
+    color: white;
+}
+
+h2{
+    color: red;
+    font-family: 'Poppins', cursive;
+    font-weight: 1000;
+}
+
+h3{
+    color: white;
+    font-family: 'Poppins',cursive;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.282);
+}
+
+h5{
+    color: gray;
+    font-family: 'Poppins',cursive;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+h4{
+    color: gray;
+    font-family: 'Poppins',cursive;
+    font-weight: 1000;
+    font-size: 11px;
+
+}
+
+.info_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.reserva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#mapa_size{
+    display: flex;
+    width: 80%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
+.position_map{
+    display: flex;
+    justify-content: center;
+}
+
+.bloque_galeria{
+    display: flex;
+    align-items: center;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.screen_galeria{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bloque_tienda{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    justify-content: space-around;
+}
+
+.tienda_tarjeta{
+    display: flex;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.tarjeta_imagen {
+    display: flex;
+    width: 45%;
+    height: 100%;
+}
+
+.position_img_tienda{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h7{
+    color: red;
+}
+
+h8{
+    color: blueviolet;
+}
+
+.screen_tienda{
+    height: auto;
+}
+
+.screen{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+footer{
+    grid-area: pie_de_pag;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer a{
+    background-color: rgba(0, 0, 0, 0.614);
+}
+
+
+@media screen and (min-width: 746px) {
+    header{
+        grid-area: encabezado;
+        display: flex;
+        flex-direction: row;
+        height: 14vh;
+    }
+
+    .logo {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        height: 14vh;
+        background-color: rgb(108, 3, 3);
+
+    } 
+
+    .icono {
+        width: 4.5rem;
+        border-radius: 50%;
+    }
+
+    .barra_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        height: 14vh;
+        
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 550;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_principal_size{
+        height: 350px;
+        border-radius: 50px;
+
+    }
+
+    .texto_index {
+        height: 37vh;
+        margin: 100px;
+        justify-content: space-evenly;
+
+    }
+
+    .historia{
+        display: flex;
+        flex-direction: row;
+        height: 64vh;
+
+    }
+
+    .parrafo_historia{
+        width: 80%;
+        font-size: 1rem;
+        margin: 10px;
+        font-weight: 500;
+    }
+
+    body {
+        background-image: url(./Imagenes/521fe2b1d89b0b49f41a9b73ef793831.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100%;
+    }
+
+    .f_turismo{
+        display: grid;
+        grid-template-columns: 55% 45%;
+        grid-template-rows: 70vh 30vh 15vh;
+        grid-template-areas:    "cont_prin      reser"
+                                "info           info"
+                                "pie_de_pag     pie_de_pag";
+    }
+
+
+    .bloque_turismo{
+        grid-area: cont_prin;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 60vh;
+
+    }
+
+
+    .info_contacto{
+        grid-area: info;
+        display: flex;
+        justify-content: space-evenly;
+        height: 45vh;
+        background-color: rgba(0, 0, 0, 0.392);
+    }
+
+    .reserva{
+        grid-area: reser;
+        justify-content: space-around;
+    }
+
+    .reser_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    font-size: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.392);
+    border-radius: 15px;
+    padding:20px
+    }
+
+    .form-control {
+        height: 20px;
+    }
+
+    .flex_info{
+        display: flex;
+        flex-direction: row;  
+             
+    }
+
+    .desc_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    footer{
+        grid-area: pie_de_pag;
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    footer a{
+        display: flex;
+        justify-content: center;
+        width: 17vh;
+        background-color: rgba(0, 0, 0, 0.464);
+        font-weight: 600;
+    }
+
+    h5{
+        background-color: rgba(0, 0, 0, 0);
+        font-weight: 800;
+    }
+
+    h3{
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+    }
+
+    .tamaño_galeria{
+        display: flex;
+        width: 90%;
+
+    }
+
+    .bloque_galeria{
+        height: auto;
+        justify-content: center;
+    }
+
+    .bloque_tienda{
+        flex-direction: row;
+        height: 60vh;
+    }
+
+    .screen_tienda{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .screen{
+        height: 79vh;
+    }
+
+    .screen_galeria{
+        height: 180vh;
+    }
+
+}
+
