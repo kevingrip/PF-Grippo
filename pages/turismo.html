@@ -52,79 +52,94 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h1>Viví una experiencia inolvidable!</h1>
-        <section class="f_turismo">
-            <section class="container">
-                <article class="bloque_turismo">
+
+    <section class="bgc_1">
+        <section class="container">
+            <div class="row">
+                <h1 class="col-sm-12 col-lg-12">Viví una experiencia inolvidable!</h1>
+                <article class="col-sm-12 col-lg-6">
                     <h2>Vení a conocernos</h2>
-                    <div>
-                        <p>En tu visita a Viñas EnzoPé podrás disfrutar de una experiencia apasionante, con atención
-                            personalizada y nuestra cálida hospitalidad. Es una Bodega de Familia construida en 1997 que
-                            ha sido restaurada y preparada para la producción de vinos de calidad con “concepto alta
+                    <article class="texto_turismo">
+                        <p>En tu visita a Viñas EnzoPé podrás disfrutar de una
+                            experiencia apasionante, con
+                            atención
+                            personalizada y nuestra cálida hospitalidad. Es una Bodega de Familia construida en
+                            1997
+                            que
+                            ha sido restaurada y preparada para la producción de vinos de calidad con “concepto
+                            alta
                             gama”. </p>
-                    </div>
-                    <div>
                         <p>
-                            Vivirás la pasión con que la bodega se dedica al cuidado de los vinos y conocerás algunos de
-                            los secretos de la calidad y personalidad de los productos. Es un lugar mágico y único donde
-                            podrás disfrutar y sorprenderte en la visita guiada y degustación que hemos preparado para
+                            Vivirás la pasión con que la bodega se dedica al cuidado de los vinos y conocerás
+                            algunos de
+                            los secretos de la calidad y personalidad de los productos. Es un lugar mágico y
+                            único
+                            donde
+                            podrás disfrutar y sorprenderte en la visita guiada y degustación que hemos
+                            preparado
+                            para
                             vos.
                         </p>
-                    </div>
+                    </article>
                 </article>
-            </section>
-            <section class="info_contacto">
-                <h2>Información de Contacto</h2>
-                <section class="flex_info">
-                    <article class="desc_info">
+                <article class="col-sm-12 col-lg-6  d-flex row">
+                    <article class="bgc_2">
+                        <h2>Información de Contacto</h2>
                         <h3>Lunes a Sabados</h3>
                         <h4>9.30 hs a 16 hs</h4>
-                        <h5>turismo@enzope.com.ar</h5>
+                        <h3>turismo@enzope.com.ar</h3>
                         <h3>Calle 912 - San Rafael - Mendoza</h3>
                     </article>
-                    <article class="position_map">
-                        <iframe id="mapa_size"
+
+                    <article class="py-4 d-flex justify-content-center">
+                        <iframe class="col-sm-12 col-lg-6 rounded border"
                             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12743.193506830852!2d-68.72336851794006!3d-32.872959858446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smendoza%20bodega!5e0!3m2!1ses!2sar!4v1683048795745!5m2!1ses!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </article>
-                </section>
-            </section>
+                </article>
+                <article class="d-flex justify-content-center">
+                    <form class="d-flex row justify-content-center col-9 col-lg-6 ">
+                        <h2>Solicitá tu reserva</h2>
+                        <div>
+                            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="exampleInputEmail1" class="form-label py-2">Mail de contacto</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div>
+                            <label for="exampleInputPassword1" class="form-label py-2">Telefono</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <article class="d-flex justify-content-center col-lg-12 py-4">
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                <label class="form-check-label" for="exampleCheck1">Soy mayor de 18 años</label>
+                            </div>
+                        </article>
+                        <button type="submit" class="col-5 col-lg-2 btn btn-primary">Enviar</button>
+                    </form>
+                </article>
 
-            <form class="reserva">
-                <section class="reser_center">
-                    <h2>Solicitá tu reserva</h2>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Mail de contacto</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Telefono</label>
-                        <input type="number" class="form-control">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                        <label class="form-check-label" for="exampleCheck1">Soy mayor de 18 años</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </section>
-            </form>
+            </div>
 
+            <!--CDN BOOTSTRAP JS-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                crossorigin="anonymous"></script>
+
+            <footer class="custom-height-footer">
+                <div class="row">
+                    <h3 class="col-sm-12 col-lg-12">Todos los derechos son reservados</h3>
+                    <a class="col-sm-12 col-lg-12" href="https://balsamiq.cloud/scdnrsg/p47lpx3">Link a balsamiq</a>
+                </div>
+            </footer>
         </section>
-    </main>
-    <footer>
-        <h3>Todos los derechos son reservados</h3>
-        <a href="https://balsamiq.cloud/scdnrsg/p47lpx3">Link a balsamiq</a>
-    </footer>
-    <!--CDN BOOTSTRAP JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    </section>
+
 
 </body>
 
