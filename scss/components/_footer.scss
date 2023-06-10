@@ -2,9 +2,10 @@ footer{
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+    font-family: 'Poppins', cursive;
+    font-size:15px;
     padding: 80px;
+    color:map-get($generales, principal );
 }
 
 footer a{
@@ -12,4 +13,15 @@ footer a{
     justify-content: center;
     width: 17vh;
     font-weight: 600;
+}
+
+h3{
+    font-size: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    footer{
+        height: 20vh;
+        justify-content: flex-end;
+    }
 }

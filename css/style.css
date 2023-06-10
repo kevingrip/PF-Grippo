@@ -21,9 +21,10 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  font-family: "Poppins", cursive;
+  font-size: 15px;
   padding: 80px;
+  color: white;
 }
 
 footer a {
@@ -33,6 +34,16 @@ footer a {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    height: 20vh;
+    justify-content: flex-end;
+  }
+}
 .texto_historia {
   font-family: "Poppins", cursive;
   display: flex;
@@ -94,14 +105,15 @@ h2 {
   height: 20vh;
 }
 
-h3 {
+.info {
   color: white;
   font-family: "Poppins", cursive;
   font-size: 15px;
+  list-style-type: none;
 }
 
-h4 {
-  color: white;
+#horario {
+  color: red;
   font-family: "Poppins", cursive;
   font-weight: 1000;
   font-size: 11px;
@@ -174,5 +186,14 @@ h8 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 200px;
+}
+
+@media screen and (min-width: 1024px) {
+  .img_hist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
 }/*# sourceMappingURL=style.css.map */
