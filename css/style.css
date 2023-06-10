@@ -27,13 +27,6 @@ footer {
   color: white;
 }
 
-footer a {
-  display: flex;
-  justify-content: center;
-  width: 17vh;
-  font-weight: 600;
-}
-
 h3 {
   font-size: 15px;
 }
@@ -41,7 +34,6 @@ h3 {
 @media screen and (min-width: 1024px) {
   footer {
     height: 20vh;
-    justify-content: flex-end;
   }
 }
 .texto_historia {
@@ -117,6 +109,7 @@ h2 {
   font-family: "Poppins", cursive;
   font-weight: 1000;
   font-size: 11px;
+  background-color: rgba(0, 0, 0, 0.53);
 }
 
 @media screen and (min-width: 1024px) {
