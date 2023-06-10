@@ -1,0 +1,44 @@
+.texto_historia{
+    font-family: 'Poppins', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-size: 20px;
+    color: map-get($generales, principal );
+    background-color: rgba(0, 0, 0, 0.53);
+    
+}
+
+.texto_turismo{
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: map-get($generales, principal );
+}
+
+.texto_index {
+    font-family: 'Poppins', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: map-get($generales, principal );
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .texto_index{
+        height: 250px;
+        justify-content: space-evenly;
+    }
+
+    .texto_historia {
+        height: 500px;
+        justify-content: space-evenly;
+    }
+}

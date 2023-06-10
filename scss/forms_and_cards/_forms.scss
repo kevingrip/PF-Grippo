@@ -1,0 +1,9 @@
+
+form .form-check-label {
+    color: map-get($segmentos_formulario , check_form )
+}
+
+form .form-label {
+    color:map-get($segmentos_formulario , text_form )
+}
+

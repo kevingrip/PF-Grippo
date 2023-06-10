@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../Imagenes/img_bgc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100%;
+}
+
+.bgc {
+  background-color: rgba(0, 0, 0, 0.656);
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 80px;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  width: 17vh;
+  background-color: rgba(0, 0, 0, 0.464);
+  font-weight: 600;
+}
+
+.texto_historia {
+  font-family: "Poppins", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.53);
+}
+
+.texto_turismo {
+  font-family: "Poppins", cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.texto_index {
+  font-family: "Poppins", cursive;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .texto_index {
+    height: 250px;
+    justify-content: space-evenly;
+  }
+  .texto_historia {
+    height: 500px;
+    justify-content: space-evenly;
+  }
+}
+h1 {
+  color: white;
+  font-family: "Montez", cursive;
+  font-size: 4rem;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  font-family: "Poppins", cursive;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+h3 {
+  color: white;
+  font-family: "Poppins", cursive;
+  font-size: 15px;
+}
+
+h4 {
+  color: white;
+  font-family: "Poppins", cursive;
+  font-weight: 1000;
+  font-size: 11px;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 5rem;
+    font-weight: 550;
+  }
+}
+form .form-check-label {
+  color: white;
+}
+
+form .form-label {
+  color: white;
+}
+
+.contenedor_check .form-check-label {
+  color: black;
+}
+
+.tarjeta_imagen {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 15vh;
+}
+
+.card-text p {
+  width: 20vw;
+}
+
+h5 {
+  color: rgb(238, 40, 40);
+  font-size: 20px;
+}
+
+h6 {
+  color: blueviolet;
+  font-size: 20px;
+}
+
+h8 {
+  font-size: 20px;
+  color: black;
+}
+
+.icono {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.img_hist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */

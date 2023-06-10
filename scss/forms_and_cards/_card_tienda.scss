@@ -1,0 +1,37 @@
+.contenedor_check .form-check-label{
+    color: map-get($segmentos_card ,check_card  );
+}
+
+
+.tarjeta_imagen {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.card-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 15vh;
+}
+
+.card-text p{
+    width: 20vw;
+}
+
+h5{
+    color: map-get($segmentos_card , card_malbec );
+    font-size: 20px;
+}
+
+h6{
+    color: map-get($segmentos_card , card_cabernet_franc );
+    font-size: 20px;
+}
+
+h8{
+    font-size: 20px;
+    color: black
+}
