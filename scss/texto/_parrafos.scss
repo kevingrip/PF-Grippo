@@ -5,9 +5,9 @@
     justify-content: center;
     align-items: center;
     margin: 25px;
-    font-size: 20px;
+    font-size: 18.5px;
     color: map-get($generales, principal );
-    background-color: rgba(0, 0, 0, 0.53);
+    background-color: $transparencia-txt-historia;
     
 }
 
@@ -40,5 +40,6 @@
     .texto_historia {
         height: 500px;
         justify-content: space-evenly;
+        width: 45vw;
     }
 }

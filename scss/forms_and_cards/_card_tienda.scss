@@ -1,5 +1,5 @@
-.contenedor_check .form-check-label{
-    color: map-get($segmentos_card ,check_card  );
+.contenedor_check .form-check-label {
+    color: map-get($segmentos_card , check_card);
 }
 
 
@@ -9,29 +9,38 @@
     height: 100%;
 }
 
-.card-text{
-    display:flex;
+.card-text {
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 15vh;
 }
 
-.card-text p{
-    width: 20vw;
+.card-text p {
+    width: 50vw;
 }
 
-h5{
-    color: map-get($segmentos_card , card_malbec );
+h5 {
+    color: map-get($segmentos_card , card_malbec);
     font-size: 20px;
 }
 
-h6{
-    color: map-get($segmentos_card , card_cabernet_franc );
+h6 {
+    color: map-get($segmentos_card , card_cabernet_franc);
     font-size: 20px;
 }
 
-h8{
+h8 {
     font-size: 20px;
-    color: black
+    color: map-get($generales, terciario)
+}
+
+@media screen and (min-width: 1024px) {
+    .card-text {
+        height: 15vh;
+    }
+
+    .card-text p {
+        width: 20vw;
+    }
 }

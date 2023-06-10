@@ -30,7 +30,6 @@ footer a {
   display: flex;
   justify-content: center;
   width: 17vh;
-  background-color: rgba(0, 0, 0, 0.464);
   font-weight: 600;
 }
 
@@ -41,7 +40,7 @@ footer a {
   justify-content: center;
   align-items: center;
   margin: 25px;
-  font-size: 20px;
+  font-size: 18.5px;
   color: white;
   background-color: rgba(0, 0, 0, 0.53);
 }
@@ -72,6 +71,7 @@ footer a {
   .texto_historia {
     height: 500px;
     justify-content: space-evenly;
+    width: 45vw;
   }
 }
 h1 {
@@ -136,11 +136,10 @@ form .form-label {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 15vh;
 }
 
 .card-text p {
-  width: 20vw;
+  width: 50vw;
 }
 
 h5 {
@@ -158,6 +157,14 @@ h8 {
   color: black;
 }
 
+@media screen and (min-width: 1024px) {
+  .card-text {
+    height: 15vh;
+  }
+  .card-text p {
+    width: 20vw;
+  }
+}
 .icono {
   width: 5rem;
   border-radius: 50%;
