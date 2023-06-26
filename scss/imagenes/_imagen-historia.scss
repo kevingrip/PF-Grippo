@@ -6,10 +6,13 @@
 
 
 @media screen and (min-width: 768px) {
-    .img_hist{
+    .cont_img_hist{
         display: flex;
         justify-content: center;
         align-items: center;
-        height:500px;
+        height: 500px;
+        width: auto;
     }
 }
+
+// 

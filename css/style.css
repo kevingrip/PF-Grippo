@@ -54,7 +54,6 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 25px;
   font-size: 18.5px;
   color: white;
   background-color: rgba(0, 0, 0, 0.53);
@@ -185,11 +184,12 @@ h8 {
 }
 
 @media screen and (min-width: 768px) {
-  .img_hist {
+  .cont_img_hist {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
+    width: auto;
   }
 }
 .carousel-item img {
