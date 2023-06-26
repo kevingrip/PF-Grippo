@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: 50px;
     font-size: 20px;
     color: map-get($generales, principal );
 }
@@ -33,7 +34,7 @@
 
 
     .texto_index{
-        height: 500px;
+        height: 350px;
         justify-content: space-evenly;
     }
 
