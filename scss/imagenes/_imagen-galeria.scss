@@ -1,0 +1,12 @@
+.carousel-item img {
+    max-width: 100%;
+    /* Ajusta el ancho máximo de las imágenes al 100% */
+    height: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .carousel-item img {
+        max-height: 700px;
+    }
+}
