@@ -54,6 +54,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 18.5px;
   color: white;
   background-color: rgba(0, 0, 0, 0.53);
@@ -76,6 +77,7 @@ h3 {
   .texto_historia {
     height: 500px;
     justify-content: space-evenly;
+    text-align: start;
     width: 45vw;
   }
 }
@@ -177,7 +179,7 @@ h8 {
   border-radius: 50%;
 }
 
-.img_hist {
+.cont_img_hist {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,9 +187,6 @@ h8 {
 
 @media screen and (min-width: 768px) {
   .cont_img_hist {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 500px;
     width: auto;
   }

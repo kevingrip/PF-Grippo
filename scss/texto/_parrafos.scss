@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 18.5px;
     color: map-get($generales, principal );
     background-color: $transparencia-txt;    
@@ -40,6 +41,7 @@
     .texto_historia {
         height: 500px;
         justify-content: space-evenly;
+        text-align: start;
         width: 45vw;
     }
 }
